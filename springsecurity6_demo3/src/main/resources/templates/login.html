@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thyme leaf.org"
+	xmlns:sec="https://www.thyme Leaf.org/thyme Leaf-extras-springsecurity6">
+<head>
+<meta charset="UTF-8">
+<title>Login - IOTSTAR.VN</title>
+</head>
+<body>
+	<div>
+		<form th:action="@{/Login}" method="post"
+			style="max-width: 400px; margin: 0 auto;">
+			<p>
+				E-mail: <input type="text" name="username" required />
+			</p>
+			<p>
+				Password: <input type="password" name="password" required />
+			</p>
+			<p>
+				<input type="submit" value="Login" />
+			</p>
+		</form>
+
+	</div>
+</body>
+</html>
